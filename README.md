@@ -1,6 +1,7 @@
 # ¡Hola! 👋 Soy Lionel Martínez, un Data Scientist apasionado por los datos y la toma de decisiones informada. 👨‍💼
 
 ## Sobre mí
+- 🎓 Licenciado en Investigación Operativa por la Universidad Nacional Mayor de San Marcos, en Lima, Perú.
 - 💼 Data Scientist con +6 años de experiencia en áreas como planificación, logística, ventas y proyectos.
 - 🧠 Apasionado por la automatización de procesos y la toma de decisiones respaldada por datos.
 - 🚀 Especializado en Metodologías Ágiles, estructura de datos, evaluación de modelos y Machine Learning.
@@ -18,6 +19,9 @@
 - Desarrollo de API con FastAPI para consultas de películas por criterios.
 - Entrenamiento de modelo de recomendación usando Nearest Neighbors.
 - Herramientas: Python, FastAPI, pandas, scikit-learn.
+
+## Tech Stack 💻:
+Python Markdown Google Cloud FastAPI Apache Airflow MySQL MongoDB Pandas NumPy scikit-learn Docker Jira Trello
 
 
 <!--
