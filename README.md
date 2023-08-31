@@ -21,7 +21,8 @@
 - Herramientas: Python, FastAPI, pandas, scikit-learn.
 
 ## Tech Stack 💻:
-![Logotipo de Python](https://raw.githubusercontent.com/python/python-logo/main/python-logo.svg?width=64) Markdown Google Cloud FastAPI Apache Airflow MySQL MongoDB Pandas NumPy scikit-learn Docker Jira Trello
+Markdown Google Cloud FastAPI Apache Airflow MySQL MongoDB Pandas NumPy scikit-learn Docker Jira Trello
+[![My Skills](https://skillicons.dev/icons?i=Python,R,Google Cloud,Azure,Oracle,&perline=3)](https://skillicons.dev)
 
 
 <!--
