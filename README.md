@@ -37,6 +37,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
 ![Jupyter](https://img.shields.io/badge/-Jupyter-05122A?style=flat&logo=jupyter)&nbsp;
 ![Colab](https://img.shields.io/badge/-Colab-05122A?style=flat&logo=Google-Colab)&nbsp;
+![Deepnote](https://img.shields.io/badge/-Deepnote-05122A?style=flat&logo=Deepnote)&nbsp;
 ![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=Microsoft-SQL-Server)&nbsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=MongoDB)&nbsp;
