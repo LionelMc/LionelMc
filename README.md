@@ -1,54 +1,68 @@
-# ¡Hola! 👋 Soy Lionel Martínez, un Data Scientist apasionado por los datos y la toma de decisiones informada. 👨‍💼
+# ¡Hola! Soy Lionel Martínez 👨💻
 
-## Sobre mí
-- 🎓 Licenciado en Investigación Operativa por la Universidad Nacional Mayor de San Marcos, en Lima, Perú.
-- 💼 Data Scientist con +6 años de experiencia en áreas como planificación, logística, ventas y proyectos.
-- 🧠 Apasionado por la automatización de procesos y la toma de decisiones respaldada por datos.
-- 🚀 Con conocimientos en Data Analytics, Machine Learning Engineer, Functional Analysis y Metodologías Ágiles.
 
-## Proyectos Destacados 🚀
-### "Esperanza de Vida al Nacer" - Machine Learning & Functional Analyst
-- Proyecto académico en el que desarrollé modelos para pronosticar la esperanza de vida.
-- Lenguaje: Python. Plataformas: Streamlit, Trello. Metodología: Scrum.
+## 👤 Sobre mí
 
-### "Accidentes Aéreos" - Data Analytics
-- Exploración y visualización de datos para comprender factores que contribuyen a accidentes aéreos.
-- Herramientas: Python, Streamlit, pandas, seaborn, matplotlib.
+🔥 **Data**: Analytics | Engineer | Scientist  
+🔁 **Transición**: Investigación Operativa → Tech  
+🎓 **Formación**:  Lic. Investigación Operativa | UNMSM (Perú)  
+🧩 **Hobbies**: 🎵 Música | ⚽ Fútbol competitivo (¡mentalidad de final!)  
+🚀 **Objetivo**: Transformar procesos empresariales con soluciones data-driven  
 
-### "Recomendación de Películas" - Machine Learning Engineer
-- Desarrollo de API con FastAPI para consultas de películas por criterios.
-- Entrenamiento de modelo de recomendación usando Nearest Neighbors.
-- Herramientas: Python, FastAPI, pandas, scikit-learn.
 
-## Tech Stack 💻:
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![R (Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=R)&nbsp;
-![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio)&nbsp;
-![Pandas](https://img.shields.io/badge/-Pandas-05122A?style=flat&logo=pandas)&nbsp;
-![NumPy](https://img.shields.io/badge/-NumPy-05122A?style=flat&logo=numpy)&nbsp;
-![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-05122A?style=flat&logo=Scikit-learn)&nbsp;
-![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-05122A?style=flat&logo=Apache-Spark)&nbsp;
-![Apache Hadoop](https://img.shields.io/badge/-Apache%20Hadoop-05122A?style=flat&logo=Apache-Hadoop)&nbsp;
-![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=Docker)&nbsp;
-![FastAPI](https://img.shields.io/badge/-FastAPI-05122A?style=flat&logo=fastapi)&nbsp;
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
-![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
-![Jupyter](https://img.shields.io/badge/-Jupyter-05122A?style=flat&logo=jupyter)&nbsp;
-![Colab](https://img.shields.io/badge/-Colab-05122A?style=flat&logo=Google-Colab)&nbsp;
-![Deepnote](https://img.shields.io/badge/-Deepnote-05122A?style=flat&logo=Deepnote)&nbsp;
-![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=Microsoft-SQL-Server)&nbsp;
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL)&nbsp;
-![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=MongoDB)&nbsp;
-![Streamlit](https://img.shields.io/badge/-Streamlit-05122A?style=flat&logo=Streamlit)&nbsp;
-![Excel](https://img.shields.io/badge/-Excel-05122A?style=flat&logo=Microsoft-Excel)&nbsp;
-![PowerBI](https://img.shields.io/badge/-PowerBI-05122A?style=flat&logo=PowerBI)&nbsp;
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-05122A?style=flat&logo=Google-Cloud)&nbsp;
-![Azure](https://img.shields.io/badge/-Azure-05122A?style=flat&logo=Microsoft-Azure)&nbsp;
-![Databricks](https://img.shields.io/badge/-Databricks-05122A?style=flat&logo=databricks)&nbsp;
-![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=Linux)&nbsp;
-![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)&nbsp;
+## 🚀 Proyectos Destacados
+| Proyecto | Desarrollo Técnico | Tecnologías Clave |  
+|----------|--------------------|-------------------|  
+| **[Esperanza de Vida al Nacer](https://github.com/LionelMc/Esperanza_de_vida)** | Modelos predictivos + visualización | Python, Azure, Streamlit, Power BI |  
+| **[Sistema de Recomendación de Películas](https://github.com/LionelMc/PI_ML_OPS_Project)** | Diseño de API + modelo ML | FastAPI, Pandas, Numpy, Scikit-learn |  
+| **[Análisis de Accidentes Aéreos](https://github.com/LionelMc/PI_DA)** | EDA + visualización de insights | Pandas, Numpy, Seaborn, Streamlit |  
+
+
+## 🛠️ Tecnologías y Herramientas
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?logo=scikitlearn&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+![PySpark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![MS Excel](https://img.shields.io/badge/MS_Excel-217346?logo=microsoftexcel&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?logo=googlesheets&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Looker](https://img.shields.io/badge/Looker-4285F4?logo=looker&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0089D6?logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Trello](https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=white)
+
+
+## 🌱 Aprendiendo Actualmente
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white)
+![Scala](https://img.shields.io/badge/Scala-DC322F?logo=scala&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
+
+
+## ⚡ Actividad reciente
+<!--RECENT_ACTIVITY:start-->
+
+<!--RECENT_ACTIVITY:end-->
+
+<!--RECENT_ACTIVITY:last_update-->
+Last Updated: Sunday, April 27th, 2025, 1:02:20 AM
+<!--RECENT_ACTIVITY:last_update_end-->
+
+
+## 📞 Contacto
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lionel-martinez-chavez/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lio.data17@gmail.com)
 
 
 <!--
