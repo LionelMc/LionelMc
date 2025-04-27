@@ -21,23 +21,25 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           mkdir -p .github
-          # Configuración con zona horaria de Perú
-          echo "DATE_FORMAT: 'dddd, MMMM Do, YYYY, h:mm:ss A (UTC-5)'" > .github/recent-activity.config.yml
-          echo "TIMEZONE: 'America/Lima'" >> .github/recent-activity.config.yml
-          echo "MAX_LINES: 5" >> .github/recent-activity.config.yml
-
-      - name: Set Lima Timezone
-        run: sudo timedatectl set-timezone America/Lima
+          # Configuración mínima (el timezone se manejará después)
+          echo "MAX_LINES: 5" > .github/recent-activity.config.yml
 
       - uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Adjust Time to Peru (UTC-5)
+        run: |
+          # Reemplaza la hora UTC por la de Perú en el README.md
+          UTC_TIME=$(grep -oP "Last Updated: .*? \d{1,2}:\d{2}:\d{2} (AM|PM)" README.md)
+          LIMA_TIME=$(TZ='America/Lima' date -d "$UTC_TIME" +'%A, %B %d, %Y, %I:%M:%S %p (UTC-5)')
+          sed -i "s|Last Updated: $UTC_TIME|Last Updated: $LIMA_TIME|g" README.md
+
       - name: Push Changes
         run: |
           git diff --quiet README.md || {
             git add README.md
-            git commit -m "🔄 Auto-update activity [skip ci]"
+            git commit -m "🕒 Updated README with Lima timezone [skip ci]"
             git push origin main
           }
 
