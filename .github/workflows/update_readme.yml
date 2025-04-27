@@ -21,7 +21,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           mkdir -p .github
-          # Configuración mínima (el timezone se manejará después)
           echo "MAX_LINES: 5" > .github/recent-activity.config.yml
 
       - uses: Readme-Workflows/recent-activity@v2.4.1
@@ -30,10 +29,24 @@ jobs:
 
       - name: Adjust Time to Peru (UTC-5)
         run: |
-          # Reemplaza la hora UTC por la de Perú en el README.md
-          UTC_TIME=$(grep -oP "Last Updated: .*? \d{1,2}:\d{2}:\d{2} (AM|PM)" README.md)
-          LIMA_TIME=$(TZ='America/Lima' date -d "$UTC_TIME" +'%A, %B %d, %Y, %I:%M:%S %p (UTC-5)')
-          sed -i "s|Last Updated: $UTC_TIME|Last Updated: $LIMA_TIME|g" README.md
+          # Extrae la fecha/hora UTC del README
+          UTC_LINE=$(grep -oP "Last Updated: .*?, \d{1,2}:\d{2}:\d{2} (AM|PM)" README.md)
+          
+          # Parsea los componentes de la fecha
+          DAY=$(echo "$UTC_LINE" | awk '{print $3}' | tr -d ',')
+          MONTH=$(echo "$UTC_LINE" | awk '{print $4}')
+          YEAR=$(echo "$UTC_LINE" | awk '{print $6}' | tr -d ',')
+          TIME=$(echo "$UTC_LINE" | awk '{print $7}')
+          AMPM=$(echo "$UTC_LINE" | awk '{print $8}')
+          
+          # Convierte a formato ISO (2025-04-27 08:29:41)
+          ISO_TIME=$(date -d "${MONTH} ${DAY} ${YEAR} ${TIME} ${AMPM}" +'%Y-%m-%d %H:%M:%S')
+          
+          # Convierte a hora de Perú
+          LIMA_TIME=$(TZ='America/Lima' date -d "$ISO_TIME" +'%A, %B %d, %Y, %I:%M:%S %p (UTC-5)')
+          
+          # Reemplaza en el README
+          sed -i "s|Last Updated: $UTC_LINE|Last Updated: $LIMA_TIME|g" README.md
 
       - name: Push Changes
         run: |
@@ -42,4 +55,3 @@ jobs:
             git commit -m "🕒 Updated README with Lima timezone [skip ci]"
             git push origin main
           }
-
