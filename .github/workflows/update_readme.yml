@@ -8,26 +8,30 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: write  # Más confiable que write-all
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - run: |
+      - name: Configure Git & Create Config
+        run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           mkdir -p .github
           echo "MAX_LINES: 5" > .github/recent-activity.config.yml
 
-      - uses: Readme-Workflows/recent-activity@v2
+      - uses: Readme-Workflows/recent-activity@v2.4.1  # ✅ Versión exacta
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
+      - name: Push Changes
+        run: |
           git diff --quiet README.md || {
             git add README.md
             git commit -m "🔄 Auto-update activity [skip ci]"
-            git push
+            git push origin main
           }
 
