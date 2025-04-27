@@ -2,28 +2,32 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # Se ejecuta cada 12 horas
+  workflow_dispatch:         # Permite ejecución manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Más confiable que write-all
+      contents: write  # Permisos para escribir en el repo
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Configure Git & Create Config
+      - name: Configure Git & Set Up Activity Config
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           mkdir -p .github
-          echo "MAX_LINES: 5" > .github/recent-activity.config.yml
+          # Configuración para recent-activity (MAX_LINES y formato de fecha con UTC)
+          cat <<EOF > .github/recent-activity.config.yml
+          MAX_LINES: 5
+          DATE_FORMAT: '%A, %B %dth, %Y, %I:%M:%S %p (UTC-5)'
+          EOF
 
-      - uses: Readme-Workflows/recent-activity@v2.4.1  # ✅ Versión exacta
+      - uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,6 +36,6 @@ jobs:
           git diff --quiet README.md || {
             current_utc_time=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
             git add README.md
-            git commit -m "🔄 Auto-update activity at $current_utc_time [skip ci]"
+            git commit -m "🔄 Auto-update README at $current_utc_time [skip ci]"
             git push origin main
           }
