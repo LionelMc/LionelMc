@@ -52,14 +52,14 @@
 
 ## ⚡ Actividad reciente
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-2. 📖 Created new wiki page [_Sidebar](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/_Sidebar) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-3. 📖 Created new wiki page [pull-requests](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/pull-requests) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-4. 📖 Created new wiki page [pruebas](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/pruebas) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-5. 📖 Created new wiki page [aplicacion-uso](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/aplicacion-uso) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+1. 📔 Created new repository [LionelMc/LionelMc.github.io](https://github.com/LionelMc/LionelMc.github.io)<br>
+2. ⬆️ Pushed 1 commit(s) to [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+3. 📖 Created new wiki page [_Sidebar](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/_Sidebar) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+4. 📖 Created new wiki page [pull-requests](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/pull-requests) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+5. 📖 Created new wiki page [pruebas](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/pruebas) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
 <!--RECENT_ACTIVITY:end-->
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Saturday, May 17th, 2025, 12:34:09 PM
+Last Updated: Sunday, May 18th, 2025, 1:40:53 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 
