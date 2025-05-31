@@ -52,14 +52,14 @@
 
 ## ⚡ Actividad reciente
 <!--RECENT_ACTIVITY:start-->
-1. 📔 Created new repository [LionelMc/PI_DA---ONG_Potenciar](https://github.com/LionelMc/PI_DA---ONG_Potenciar)<br>
-2. 📔 Created new repository [LionelMc/LionelMc.github.io](https://github.com/LionelMc/LionelMc.github.io)<br>
-3. ⬆️ Pushed 1 commit(s) to [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-4. 📖 Created new wiki page [_Sidebar](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/_Sidebar) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
-5. 📖 Created new wiki page [pull-requests](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/pull-requests) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+1. ⬆️ Pushed 1 commit(s) to [LionelMc/PI_DA---ONG_Potenciar](https://github.com/LionelMc/PI_DA---ONG_Potenciar)<br>
+2. 📔 Created new repository [LionelMc/PI_DA---ONG_Potenciar](https://github.com/LionelMc/PI_DA---ONG_Potenciar)<br>
+3. 📔 Created new repository [LionelMc/LionelMc.github.io](https://github.com/LionelMc/LionelMc.github.io)<br>
+4. ⬆️ Pushed 1 commit(s) to [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
+5. 📖 Created new wiki page [_Sidebar](https://github.com/LionelMc/projPractice---PyAPI-Starter/wiki/_Sidebar) in [LionelMc/projPractice---PyAPI-Starter](https://github.com/LionelMc/projPractice---PyAPI-Starter)<br>
 <!--RECENT_ACTIVITY:end-->
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Friday, May 30th, 2025, 12:37:48 PM
+Last Updated: Saturday, May 31st, 2025, 1:26:19 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 
