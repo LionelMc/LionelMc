@@ -13,9 +13,10 @@
 ## 🚀 Proyectos Destacados
 | Proyecto | Desarrollo Técnico | Tecnologías Clave |  
 |----------|--------------------|-------------------|  
-| **[Esperanza de Vida al Nacer](https://github.com/LionelMc/Esperanza_de_vida)** | Modelos predictivos + visualización | Python, Azure, Streamlit, Power BI |  
-| **[Sistema de Recomendación de Películas](https://github.com/LionelMc/PI_ML_OPS_Project)** | Diseño de API + modelo ML | FastAPI, Pandas, Numpy, Scikit-learn |  
-| **[Análisis de Accidentes Aéreos](https://github.com/LionelMc/PI_DA)** | EDA + visualización de insights | Pandas, Numpy, Seaborn, Streamlit |  
+| **[Esperanza de Vida al Nacer](https://github.com/LionelMc/PG_DE_DA_ML---Esperanza_Vida_Nacer)** | Modelos predictivos + visualización | Python, Azure, Streamlit, Power BI |  
+| **[Sistema de Recomendación de Películas](https://github.com/LionelMc/PI_ML---Recomendacion_Peliculas)** | Diseño de API + modelo ML | FastAPI, Pandas, Numpy, Scikit-learn |  
+| **[Análisis de Accidentes Aéreos](https://github.com/LionelMc/PI_DA---Accidentes_Aereos)** | EDA + visualización de insights | Pandas, Numpy, Seaborn, Streamlit |  
+| **[ONG Potenciar – Dashboard Financiero](https://github.com/LionelMc/PI_DA---ONG_Potenciar)** | ETL + visualización (KPIs financieros) | Google Sheets, Looker Studio |  
 
 
 ## 🛠️ Tecnologías y Herramientas
