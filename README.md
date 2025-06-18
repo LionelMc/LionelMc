@@ -53,14 +53,14 @@
 
 ## ⚡ Actividad reciente
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 2 commit(s) to [LionelMc/skills-introduction-to-github](https://github.com/LionelMc/skills-introduction-to-github)<br>
-2. 🎉 Merged PR [#2](https://github.com/LionelMc/skills-introduction-to-github/pull/2) in [LionelMc/skills-introduction-to-github](https://github.com/LionelMc/skills-introduction-to-github)<br>
-3. 💪 Opened PR [#2](https://github.com/LionelMc/skills-introduction-to-github/pull/2) in [LionelMc/skills-introduction-to-github](https://github.com/LionelMc/skills-introduction-to-github)<br>
-4. ⬆️ Pushed 1 commit(s) to [LionelMc/skills-introduction-to-github](https://github.com/LionelMc/skills-introduction-to-github)<br>
-5. 📔 Created new repository [LionelMc/skills-introduction-to-github](https://github.com/LionelMc/skills-introduction-to-github)<br>
+1. ⬆️ Pushed 5 commit(s) to [LionelMc/skills-introduction-to-codeql](https://github.com/LionelMc/skills-introduction-to-codeql)<br>
+2. 🎉 Merged PR [#2](https://github.com/LionelMc/skills-introduction-to-codeql/pull/2) in [LionelMc/skills-introduction-to-codeql](https://github.com/LionelMc/skills-introduction-to-codeql)<br>
+3. ⬆️ Pushed 3 commit(s) to [LionelMc/skills-introduction-to-codeql](https://github.com/LionelMc/skills-introduction-to-codeql)<br>
+4. ⬆️ Pushed 1 commit(s) to [LionelMc/skills-introduction-to-codeql](https://github.com/LionelMc/skills-introduction-to-codeql)<br>
+5. ⬆️ Pushed 1 commit(s) to [LionelMc/skills-introduction-to-codeql](https://github.com/LionelMc/skills-introduction-to-codeql)<br>
 <!--RECENT_ACTIVITY:end-->
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Tuesday, June 17th, 2025, 12:40:05 PM
+Last Updated: Wednesday, June 18th, 2025, 1:38:00 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 
